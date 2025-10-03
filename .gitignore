@@ -48,9 +48,7 @@ lightning_logs/
 gpt2/
 
 # Model weights
-*.pt
-*.pth
-*.ckpt
+
 
 # TensorBoard
 events.out.tfevents.*
