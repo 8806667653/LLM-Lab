@@ -1,5 +1,7 @@
 import torch
 from base.evaluate import calc_loss_batch_classification, calc_loss_loader_classification, calc_accuracy_loader_classification
+from base.evaluate import calc_loss_batch, calc_loss_loader
+from base.generate import text_to_token_ids, token_ids_to_text, generate_text_simple
 
 def train_model_simple(model, train_loader, val_loader,
                        optimizer, device, num_epochs,
