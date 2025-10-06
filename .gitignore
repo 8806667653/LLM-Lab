@@ -48,7 +48,21 @@ lightning_logs/
 gpt2/
 
 # Model weights
+*.pth
+*.ckpt
+*.ckpt.*
+*.bin
+*.safetensors
+*.pt
+*.weights
 
+# Data files
+*.zip
+*.tar.gz
+*.csv
+*.tsv
+*.json
+sms_spam_collection/
 
 # TensorBoard
 events.out.tfevents.*
